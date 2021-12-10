@@ -8,14 +8,14 @@
 
 import Foundation
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___InputProtocol
+// MARK:- ___FILEBASENAMEASIDENTIFIER___InputProtocol
 /// This protocol contains all the input required for ___FILEBASENAMEASIDENTIFIER___ to initialize and respond to user's actions.
 protocol ___FILEBASENAMEASIDENTIFIER___InputProtocol {
     /// This method take required info for initial setup of ___FILEBASENAMEASIDENTIFIER___
     func setup(with info: Any)
 }
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___OutputProtocol
+// MARK:- ___FILEBASENAMEASIDENTIFIER___OutputProtocol
 /// This protocol contains methods/variables to get all the required info which need to be shown to user
 protocol ___FILEBASENAMEASIDENTIFIER___OutputProtocol {
     /// This Dynamic variable is used to notify ___VARIABLE_productName:identifier___ViewController to update the UI on data change.
